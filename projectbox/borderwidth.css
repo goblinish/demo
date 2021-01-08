@@ -1,0 +1,15 @@
+.one {
+    border-style: solid;
+    border-width: thin;
+}
+
+.two {
+    width: 275px;
+    border-style: solid;
+    border-width: thick;
+}
+
+.three {
+    border-style: solid;
+    border-width: 1px 4px 12px 4px;
+}

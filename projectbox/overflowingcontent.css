@@ -1,0 +1,26 @@
+
+h2 {
+    color: red;
+    border-bottom: 1px solid red;
+    width: 500px;
+    height: 20px;
+    font-size: 90%;
+    line-height: 1.2em;
+    
+}
+
+p {
+    min-width: 100px;
+    max-height: 100px;
+    width: 500px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+p.one {
+    overflow: hidden;
+}
+
+p.two {
+    overflow: scroll;
+}

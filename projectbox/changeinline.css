@@ -1,0 +1,12 @@
+li {
+    display: inline;
+    margin-right: 10px;
+}
+li.coming-soon {
+    visibility: hidden;
+}
+
+ul {
+    font-size: xx-large;
+    text-align: center;
+}

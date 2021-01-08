@@ -1,0 +1,71 @@
+.page {
+ background-color:#ba8682
+}
+
+.nav-wrapper {
+    background-color: black;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    height: 260px;
+    width: 260px;
+    background: rgb(212, 209, 209);
+    margin: 10px;
+    padding: 22px;
+
+}
+.price {
+    font-size: medium;
+    text-align: left;
+    background-color:#ba8682;
+    opacity: 75%;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden; 
+    margin-bottom: 20px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.logo {
+    font-size: 100px;
+    text-align: center;
+    background-color: wheat ;
+}
+
+body {
+  font-family: arial;
+  background-color: red;
+}
+
+.q {
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  left: 500px;
+  width: 250px;
+}
+
+.a {
+  width: 400px;
+}

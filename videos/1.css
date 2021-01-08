@@ -1,0 +1,39 @@
+body {
+    margin: 1000x;
+    background-color: black;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 50px;
+    background-color: black ;
+ }
+  
+.box {
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 150%;
+    
+
+}
+
+#boxa {
+    background-color: red;
+    
+}
+#boxb {
+    background-color: orangered;
+}
+#boxc {
+    background-color: green;
+}
+#boxd {
+    background-color: blue;
+}
+#boxe {
+    background-color: indigo;
+}
+#boxf {
+    background-color: violet;
+}

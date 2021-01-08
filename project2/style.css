@@ -1,0 +1,144 @@
+.page {
+    background-color: rgb(197, 240, 229) ;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+     
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+    text-align: center;
+
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+.title {
+    color: black;
+}
+h6 {
+    text-align: center;
+}
+.sect {
+    text-align: center;
+}
+
+
+nav {
+    background-color: peachpuff; 
+    text-align: center;    
+    width: 100%;
+    position: fixed;
+}
+
+a{
+    text-decoration-line: none;
+    text-decoration-color: white;
+}
+
+nav ul{
+
+    list-style: none;
+}
+
+.kiddy {
+    border: 5px rgb(226, 140, 169);
+    margin: 50px 5px;
+    padding: 30px;
+    text-align: center;
+    background-color: lightyellow; 
+    font-size: xx-large;
+    font-weight: 900;
+    font-variant: small-caps;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+    font-size: xx-large;
+    
+}
+
+}
+
+
+.box {
+
+    /*display: inline-block;*/
+    height: 200px;
+    width: 200px;
+    background: rgb(248, 174, 185);
+    margin: 10px;
+    
+} 
+
+.flex { 
+    margin: 30px;
+    border: gray 10px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 250px;
+
+}
+    
+
+
+@keyframes moveBox {
+    0%{left: 0px; top: 0px;}
+    25%{left: 1250px; top: 0px;}
+    50%{left: 1250px; top: 300px;}
+    75%{left: 0px; top: 300px;}
+    100%{left: 0px; top: 0px;}
+}
+
+
+
+
+
+#kit1 {
+    position: relative;
+    animation: moveBox 2s 1; 
+
+}
+
+#kit2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -60px;
+  
+}
+
+@keyframes getBigger {
+    0% {transform: scale(1);}
+    100% {transform: scale(100);}
+    0% {transform: scale(1);}
+}
+
+#kit2 {
+
+    animation: getBigger 2s ;
+    
+}
+@keyframes rotation 
+    {
+    0% { transform: rotate(0deg); } 
+    25% { transform: rotate(90deg); } 
+    50% { transform: rotate(180deg); } 
+    100% { transform: rotate(360deg); } 
+}
+
+#kit3 {
+    animation: rotation 2s 2 linear ;}

@@ -1,0 +1,17 @@
+p.one {
+    border-top-left-radius: 80px 50px;
+    color: red;
+}
+
+p.two {
+    border-top-left-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    color: red;
+
+}
+
+p.three {
+    padding: 0px;
+    border-radius: 100px;
+    color: red;
+
+}

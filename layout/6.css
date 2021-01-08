@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url(Quicksand-book-webfont.eot);
+    src: url(Quicksand-book-webfont.eot?#iefix) format(embedded-opentype),
+        src: url(Quicksand-book-webfont.woff) format('woff'),
+        src: url(Quicksand-book-webfont.ttf) format('truetype'),
+        src: url(Quicksand-book-webfont.svg#QuicksandBook) format('svg');
+}
+
+body {
+    color: black;
+    background: gray url(gray.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90%;
+    margin: 0px;
+    text-align: center;
+} 
+
+a {
+    color: rgb(226, 110, 226);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+.header {
+    background-image: url("starheader.jpg");
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    position: relative;
+    z-index: initial;
+}
+
+.nav {
+    float: right;
+    font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+    padding: 45px 0px 0px 0px;
+    text-align: right;
+}
+
+.main-story {
+    background-image: url(cyclone.jpg);
+    background-repeat: no-repeat;
+    background-position: 122px 142px;
+    height: 570px;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0px auto;
+    background-image: url(tri.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    text-align: left;
+    z-index: 7;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+h1. h2 {
+    font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 240%;
+    margin-top: 140px;
+}
+
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    color: #b5c1ad;
+}
+
+.intro {
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+
+.more-articles {
+    border-top: 1px solid #ffffff;
+    padding: 10px;    
+    inline-size: initial;
+}
+
+.more-articles p {
+    border-bottom: 1px solid #807c72;
+    padding: 5px 0px 15px 0px;
+    font-size: 80%;
+}
+
+.more-articles p:last-child {
+    border-bottom: none;
+}
+
+.footer {
+    clear: both;
+    background: rgba(0,0,0.2);
+    padding: 5px 10px;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    text-align: right;
+}
+
+.footer a {
+    color: #807c72;
+}
